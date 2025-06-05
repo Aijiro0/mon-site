@@ -60,10 +60,22 @@ footer {
     border-radius: 40px;
 }
 
+.photo {
+    float: left;
+    text-align: center;
+    max-height: 400px; 
+    width: 400px;
+    top: 20px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    border-radius: 40px;
+}
+
 .presentation, .apropos, .prestations, .galerie {
     max-width: 1000px;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .prestations-column{
@@ -148,6 +160,12 @@ footer {
     }
 
     .logo {
+        float: none;
+        max-width: 90%;
+        margin-top: 10px;
+    }
+
+    .photo {
         float: none;
         max-width: 90%;
         margin-top: 10px;
