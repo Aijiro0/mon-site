@@ -134,7 +134,7 @@ footer {
   font-size: 0.95em;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1450px){
     body{
         background-color: white;
         font-family: Arial, sans-serif;
