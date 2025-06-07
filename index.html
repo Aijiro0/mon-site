@@ -2,11 +2,21 @@
 <html>
 <head>
     <meta charset="UTF-8">
+
+    <!-- Lien vers la feuille de style CSS -->
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+    <!-- Lien vers la feuille de style CSS personnalisée -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Lien vers le google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+SA+Hand:wght@400..700&display=swap" rel="stylesheet">
     <title>Accueil</title>
 </head>
 <body>
+    <!-- En-tête du site avec le titre et la navigation -->
     <header>
         <h1>
             Bienvenue sur la page d'accueil !
@@ -22,9 +32,11 @@
     </header>
     <main>
         <section class="presentation">
+            <!-- Utilisation d'un conteneur flexbox pour organiser les éléments -->
             <div class="container-flex">
                 <div>
-                    <img src="img/logo.png" alt="Logo de l'entreprise" class="logo">
+                    <!-- Logo -->
+                    <img src="img/logo.png" alt="Logo" class="logo">
                 </div>
                 <div>
                     <h2>
@@ -46,6 +58,7 @@
             </div>
         </section>
     </main>
+    <!-- Pied de page du site avec les informations de contact -->
     <footer class="site-footer">
         <div class="footer-info">
             <strong>Adresse</strong>
@@ -58,6 +71,7 @@
         <div class="footer-contact">
             <strong>Contact</strong>
             <p>
+                 <!-- Lien permettant de composer directement le numéro sur téléphone mobile -->
                 <p>Téléphone<br><a href="tel:+3245578698">+32 45 57 86 98</a></p>
             </p>
         </div>
@@ -70,6 +84,7 @@
             </p>
         </div>
         <div class="footer-google">
+            <!-- Carte Google Maps intégrée avec une iframe-->
             <strong>Google map</strong>
             <p>
                 Voici la map :
